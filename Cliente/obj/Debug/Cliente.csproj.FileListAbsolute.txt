@@ -1,0 +1,6 @@
+C:\Users\erikf\Documents\Universidad\SO\Proyecto SO\Cliente\obj\Debug\Cliente.csprojAssemblyReference.cache
+C:\Users\erikf\Documents\Universidad\SO\Proyecto SO\Cliente\obj\Debug\Cliente.Form1.resources
+C:\Users\erikf\Documents\Universidad\SO\Proyecto SO\Cliente\obj\Debug\Cliente.Inicio.resources
+C:\Users\erikf\Documents\Universidad\SO\Proyecto SO\Cliente\obj\Debug\Cliente.Properties.Resources.resources
+C:\Users\erikf\Documents\Universidad\SO\Proyecto SO\Cliente\obj\Debug\Cliente.csproj.GenerateResource.cache
+C:\Users\erikf\Documents\Universidad\SO\Proyecto SO\Cliente\obj\Debug\Cliente.Form2.resources
