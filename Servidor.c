@@ -1,3 +1,4 @@
+#include <mysql.h>
 #include <string.h>
 #include <unistd.h>
 #include <stdlib.h>
@@ -43,7 +44,9 @@ int main(int argc, char *argv[])
 		sock_conn = accept(sock_listen, NULL, NULL);
 		printf ("He recibido conexion\n");
 		//sock_conn es el socket que usaremos para este cliente
-		
+		MYSQL *conn;
+		int err;
+		conn = mysql_init(NULL);
 		int terminar =0;
 		// Entramos en un bucle para atender todas las peticiones de este cliente
 		//hasta que se desconecte
@@ -73,6 +76,7 @@ int main(int argc, char *argv[])
 			{
 				p = strtok( NULL, "/");
 				strcpy (nombre, p);
+				
 				// Ya tenemos el nombre
 				printf ("Codigo: %d, Nombre: %s\n", codigo, nombre);
 			}
@@ -89,7 +93,7 @@ int main(int argc, char *argv[])
 				scanf ("%s", fecha);
 				
 				char consulta [80];
-				strcpy (consulta,"SELECT jugador.Username, partida.Duracion FROM jugador, partida, relacion WHERE partida.Fecha = '17-02-2022'");
+				strcpy (consulta,"SELECT jugador.Username, partida.Duracion FROM jugador,partida,relacion WHERE partida.Fecha = '");
 				strcat (consulta, fecha);
 				strcat (consulta,"'AND partida.ID = relacion.ID_P AND relacion.ID_J = jugador.ID");								//=%s", fecha);?
 				
@@ -109,7 +113,7 @@ int main(int argc, char *argv[])
 				scanf ("%s", nombre);
 				
 				char consulta [80];
-				strcpy (consulta,"SELECT relacion.Victorias FROM jugador,partida,relacion WHERE jugador.Username = 'Erik'");
+				strcpy (consulta,"SELECT relacion.Victorias FROM jugador,partida,relacion WHERE jugador.Username = %s'");
 				strcat (consulta, nombre);
 				strcat (consulta,"'AND jugador.ID = Relacion.ID_J AND relacion.ID_P = partida.ID");
 				
@@ -129,7 +133,7 @@ int main(int argc, char *argv[])
 				scanf ("%s", nombre);
 				
 				char consulta [80];
-				strcpy (consulta,"SELECT relacion.Cantidad FROM jugador, partida, relacion WHERE jugador.Username = 'Erik'");
+				strcpy (consulta,"SELECT relacion.Cantidad FROM jugador, partida, relacion WHERE jugador.Username = '");
 				strcat (consulta, nombre);
 				strcat (consulta,"partida.ID = relacion.ID_P AND relacion.ID_J = jugador.ID");
 				
@@ -147,9 +151,9 @@ int main(int argc, char *argv[])
 				scanf ("%s", nombre);
 				
 				char consulta [80];
-				strcpy (consulta,"jugador.ID FROM jugador WHERE jugador.Username = 'Erik'");
+				strcpy (consulta,"SELECT jugador.ID FROM jugador WHERE jugador.Username = '");
 				strcat (consulta, nombre);
-				strcat (consulta,"partida.ID = relacion.ID_P AND relacion.ID_J = jugador.ID");
+				strcat (consulta,"'AND partida.ID = relacion.ID_P AND relacion.ID_J = jugador.ID");
 				
 				err=mysql_query (conn, consulta);
 				if (err!=0) {

@@ -16,6 +16,11 @@ namespace Cliente
     {
         int nForm;
         Socket server;
+
+        public Form2()
+        {
+        }
+
         public Form2(int nForm, Socket server)
         {
             InitializeComponent();

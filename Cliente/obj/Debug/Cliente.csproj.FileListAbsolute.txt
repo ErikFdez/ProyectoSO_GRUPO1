@@ -4,3 +4,13 @@ C:\Users\erikf\Documents\Universidad\SO\Proyecto SO\Cliente\obj\Debug\Cliente.In
 C:\Users\erikf\Documents\Universidad\SO\Proyecto SO\Cliente\obj\Debug\Cliente.Properties.Resources.resources
 C:\Users\erikf\Documents\Universidad\SO\Proyecto SO\Cliente\obj\Debug\Cliente.csproj.GenerateResource.cache
 C:\Users\erikf\Documents\Universidad\SO\Proyecto SO\Cliente\obj\Debug\Cliente.Form2.resources
+C:\share\Proyecto\ProyectoSO_GRUPO1\Cliente\obj\Debug\Cliente.Form1.resources
+C:\share\Proyecto\ProyectoSO_GRUPO1\Cliente\obj\Debug\Cliente.Form2.resources
+C:\share\Proyecto\ProyectoSO_GRUPO1\Cliente\obj\Debug\Cliente.Properties.Resources.resources
+C:\share\Proyecto\ProyectoSO_GRUPO1\Cliente\obj\Debug\Cliente.csproj.GenerateResource.cache
+C:\share\Proyecto\ProyectoSO_GRUPO1\Cliente\obj\Debug\Cliente.csproj.CoreCompileInputs.cache
+C:\share\Proyecto\ProyectoSO_GRUPO1\Cliente\bin\Debug\Cliente.exe.config
+C:\share\Proyecto\ProyectoSO_GRUPO1\Cliente\bin\Debug\Cliente.exe
+C:\share\Proyecto\ProyectoSO_GRUPO1\Cliente\bin\Debug\Cliente.pdb
+C:\share\Proyecto\ProyectoSO_GRUPO1\Cliente\obj\Debug\Cliente.exe
+C:\share\Proyecto\ProyectoSO_GRUPO1\Cliente\obj\Debug\Cliente.pdb
