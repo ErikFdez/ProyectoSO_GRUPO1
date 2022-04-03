@@ -1,5 +1,34 @@
-"Proyecto del grupo 1 de Sistemas Operativos (2021-22-Q2)" 
-"Monopoly"
-"Nuestro grupo est· compuesto por Andrei Poposi, Tania Jimenez, Antoni BotÈ y Erik Fern·ndez"
-"Nuestra idea ha sido crear un juego monopoly versiÛn EETAC, esto seria algo como comprar materias y profesores en vez de casas"
-VersiÛn 2 generada por Erik Fern·ndez
+# ProyectoSO_GRUPO1 
+
+Proyecto del grupo 1 de Sistemas Operativos (2021-22-Q2). Versi√≥n alternativa del juego cl√°sico: *Monopoly*.
+
+Nuestro grupo est√° compuesto por:
+- Andrei Piposi 
+- Tania Jimenez
+- Antoni Bot√© 
+- Erik Fern√°ndez
+
+# Versiones
+
+## Versi√≥n 1
+
+Creaci√≥n del cliente y servidor. Consultas b√°sicas
+
+- Generado/a   Erik
+- Verificador/a  Tania
+- Verificador/a  Andrei
+- Productor/a del video de muestra Antoni  (url del video)
+
+## Versi√≥n 2
+
+Exlusi√≥n mutua. Lista de conectados. Servidor concurrente. Inicio de la interfaz gr√°fica
+
+- Generado/a   Andrei
+- Verificador/a  Erik
+- Verificador/a  Tania
+- Productor/a del video de muestra Antoni  (url del video) / video de la interfaz (url del video)
+
+
+
+
+
