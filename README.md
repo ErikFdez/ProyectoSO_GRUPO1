@@ -28,7 +28,6 @@ Exlusión mutua. Lista de conectados. Servidor concurrente. Inicio de la interfa
 - Verificador/a  Tania
 - Productor/a del video de muestra Antoni  (url del video) / video de la interfaz (url del video)
 
-
-
-
+- Video v2: https://drive.google.com/drive/u/0/folders/1_myKtGypc_tRIzZ89QfCEKqZ-Oy3L9gb
+- Video Interfaz: https://drive.google.com/drive/u/0/folders/1-j3qevL8_oNLHhmRTDLUOzHrtUcXyZuI
 
