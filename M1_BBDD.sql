@@ -1,7 +1,7 @@
-DROP DATABASE IF EXISTS BaseDatos;
-CREATE DATABASE BaseDatos;
+DROP DATABASE IF EXISTS M1_BBDD;
+CREATE DATABASE M1_BBDD;
 
-USE BaseDatos;
+USE M1_BBDD;
 
 CREATE TABLE jugador (
 
@@ -55,33 +55,33 @@ INSERT INTO relacion VALUES(4,6,5,2);
 INSERT INTO relacion VALUES(2,10,5,3);
 
 
-/*DAME EL USERNAME DEL GANADOR Y LA DURACIÓN DE LA PARTIDA QUE SE JUGO EN UNA FECHA CONCRETA*/
+/*DAME EL USERNAME DEL GANADOR Y LA DURACIÓN DE LA PARTIDA QUE SE JUGO EN UNA FECHA CONCRETA
 
 SELECT jugador.Username, partida.Duracion FROM jugador, partida, relacion
 WHERE  partida.Fecha = '17-02-2022'
 AND    partida.ID = relacion.ID_P
-AND    relacion.ID_J = jugador.ID;
+AND    relacion.ID_J = jugador.ID;*/
 
 
-/*DAME LAS PARTIDAS GANADAS DE TAL USERNAME*/
+/*DAME LAS PARTIDAS GANADAS DE TAL USERNAME
 
 SELECT relacion.Victorias FROM jugador, partida, relacion
 WHERE jugador.Username = 'Erik'
 AND partida.ID = relacion.ID_P
-AND relacion.ID_J = jugador.ID;
+AND relacion.ID_J = jugador.ID;*/
 
 
-/*DAME CANTIDAD DE PARTIDAS JUGADAS DE TAL USERNAME*/
+/*DAME CANTIDAD DE PARTIDAS JUGADAS DE TAL USERNAME
 
 SELECT relacion.Cantidad FROM jugador, partida, relacion
 WHERE jugador.Username = 'Erik'
 AND partida.ID = relacion.ID_P
-AND relacion.ID_J = jugador.ID;
+AND relacion.ID_J = jugador.ID;*/
 
 
-/*DAME EL ID DE TAL USERNAME*/
+/*DAME EL ID DE TAL USERNAME
 SELECT jugador.ID FROM jugador
-WHERE jugador.Username = 'Erik'
+WHERE jugador.Username = 'Erik'*/
 
 
 
